@@ -1,1 +1,0 @@
-import{l as t}from"./app-131752ea.js";const o=async()=>{try{const{pageviewCount:e}=await t(()=>import("./app-131752ea.js").then(r=>r.Q),[]);return e({serverURL:"http://comments.luogesidoc.com"})}catch{console.error("@waline/client is not installed!");return}};export{o as updatePageview};
