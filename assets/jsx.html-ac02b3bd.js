@@ -1,1 +1,0 @@
-import{_ as e,o as n,c as t,a as l}from"./app-46a07672.js";const o={},s=l("ol",null,[l("li",null,[l("p",null,"表达式 需要加 ()")]),l("li",null,[l("p",null,"只有一个根节点")]),l("li",null,[l("p",null,"<></> 语法糖")])],-1),c=[s];function _(a,r){return n(),t("div",null,c)}const i=e(o,[["render",_],["__file","jsx.html.vue"]]);export{i as default};
