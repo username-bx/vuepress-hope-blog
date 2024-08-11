@@ -1,7 +1,0 @@
-import{_ as e,o as a,c as s,e as n}from"./app-a747b37e.js";const i="/assets/netstat01-ce269d64.png",d={},t=n(`<h1 id="查看端口占用-windows" tabindex="-1"><a class="header-anchor" href="#查看端口占用-windows" aria-hidden="true">#</a> 查看端口占用 windows</h1><h2 id="_1-查看被占用端口对应的-pid" tabindex="-1"><a class="header-anchor" href="#_1-查看被占用端口对应的-pid" aria-hidden="true">#</a> 1. 查看被占用端口对应的 PID</h2><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code>
-<span class="token function">netstat</span> -aon<span class="token operator">|</span>findstr <span class="token string">&quot;8081&quot;</span>
-
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><img src="`+i+`" alt="图片" tabindex="0" loading="lazy"><figcaption>图片</figcaption></figure><h2 id="_2-结束进程" tabindex="-1"><a class="header-anchor" href="#_2-结束进程" aria-hidden="true">#</a> 2. 结束进程</h2><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code>
-taskkill /T /F /PID <span class="token number">9088</span> 
-
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,6),r=[t];function c(l,o){return a(),s("div",null,r)}const u=e(d,[["render",c],["__file","netstat.html.vue"]]);export{u as default};
