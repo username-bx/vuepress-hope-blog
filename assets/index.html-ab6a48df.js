@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as o,d as c}from"./app-3acb1bab.js";const n={},_=c("p",null,"demo",-1),s=[_];function r(a,d){return t(),o("div",null,s)}const i=e(n,[["render",r],["__file","index.html.vue"]]);export{i as default};
